@@ -2,24 +2,21 @@
 1.  Inicio
 2.  (notasEstudiante(3),i[0-n])
 3.  (notasEstudianteCualitativo(3), x(20)[{a-z}, {BS}])
-4.  indice, i[0-n]
+4.  indice, i[0-n] <-- 0
 5.  notasEstudiante[0] <-- 8
 6.  notasEstudiante[1] <-- 9
 7.  notasEstudiante[2] <-- 10
-8.  Para(indice<--0, indice<3, 1) haga
-9.    Si notasEstudiante[i]>5 entonces
+8.  Mientras (indice<3Para) entonces
+9.    Si t entonces
 10.     notasEstudianteCualitativo[i] <- "Buena"
 11.   Caso Contrario
 12.     notasEstudianteCualitativo[i] <- "Mala"
-13.   FinSi
-14. Fin_Para 
-15. Para(indice<--0, indice<3, 1) haga
-16.     Escribir notasEstudiante[i], "---" + notasEstudianteCualitativo[i] 
-17. Fin_Para 
-18. Fin
-
-
-
-
-
+13.     indice <-- indice + 1
+14.   FinSi
+15. Fin_Mientras
+16. Mientras (indice<3Para) entonces
+17.     Escribir notasEstudiante[i], "---" + notasEstudianteCualitativo[i] 
+18.  indice <-- indice + 1
+19. Fin_Mientras
+20. Fin
 

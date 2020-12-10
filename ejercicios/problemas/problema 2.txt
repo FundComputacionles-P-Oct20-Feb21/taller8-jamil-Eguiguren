@@ -1,0 +1,13 @@
+1.arreglo(5), i[0-n]
+2.arreglo[0] <-- 10
+3.arreglo[1] <-- 9
+4.arreglo[2] <-- 20
+5.arreglo[3] <-- 29
+6.arreglo[4] <-- 100
+7.indice, i[n,0]
+8. Para(indice<--0, indice<5, 1) haga
+9.  Si((arreglo[indice] MOD2 == 1))
+10.    Escribir arreglo[indice]
+11.  Fin_Si
+12.Fin_Para
+13.Fin
